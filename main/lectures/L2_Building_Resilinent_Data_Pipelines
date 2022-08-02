@@ -1,0 +1,31 @@
+# Building Resilient Data Pipelines
+A large part of resilinet pipelines is ensure the quality of the data going into the model. Garbage in will always equal garbage out wrt the world of data. 
+
+## Survivorship Bias
+Abraham Wald, through his skillful use of data collection and analysis, came up with what is now called “survivorship bias”. Wald was a mathematician from Hungary, who worked in the US during World War II.
+
+As working at a time when the world war was going on, his work is based on warplanes and the armor needed for the protection of these airplanes. The dilemma that arose due to this was that heavy armor will make airplanes slower and cost more due to reduced fuel efficiency.
+
+![image](.\images\survivor.jpg)
+
+Wald was assigned to determine how much armor a plane could have in order to be determined safe as well as not be too slow and need excess fuel. Wald was given data from engagements all over Europe, and most engineers of the time note how planes usually got shot on the fuselage and wings and hence concluded these areas to be in need of most armor. However, Wald was a man of a sharp mind and hence he acknowledged that,
+
+>The most important data is the data you don’t have — Abraham Wald
+
+Hence, Wald analyzed data and asked a simple question “where do planes that don’t come back get shot?” The planes that did return back and were safe were shot on areas that could handle those shots. Hence, Wald concluded the important discovery that areas with few shots need more armor.
+
+## Big Data Characteristics to Consider
+- Volume
+  - Terabytes, petabytes ...
+
+- Velocity
+  - Batch, real-time, streams ...
+
+- Variety
+  - Structured, unstructured, multimedia ...
+
+- Veracity
+  - Reliability, availability, completeness ...
+
+- Value
+  - Insights, foresights, actions.decisions ...
